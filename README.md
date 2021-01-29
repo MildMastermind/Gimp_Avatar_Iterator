@@ -1,6 +1,7 @@
 # Gimp_Avatar_Iterator
 A python-fu script for The GIMP that iterates through every combination of individual layers stored within layer groups, and outputs a .png file for each combination.
 
+This is my very first GIMP plug-in, and I am not a python developer, but this seems to work pretty well for me.
 
 This script is intended to create every possible iteration of an avatar (ala www.picrew.me) where each component of the image (eyes, nose, mouth, hair, etc) is contained within a layer group. Any layer named "Background" will be made transparent. An example file would look like:
 - hair
